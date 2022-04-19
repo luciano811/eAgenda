@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloTarefa.Tarefa">
+    <Position X="1.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAQQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuloTarefa\Tarefa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloContato.Contato">
+    <Position X="4.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ICAIACIAAAQABAAAAAAAIAAAgAICAQACAAEAKAAEACA=</HashCode>
+      <FileName>ModuloContato\Contato.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="caixa" />
+      <Field Name="categoria" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="historicoCompromissos" />
+      <Field Name="historicoReservas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloCompromisso.Compromisso">
+    <Position X="9.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>UABAAAAAAAAAAAEBAABAAAAAAEAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ModuloCompromisso\Compromisso.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="contato" />
+      <Field Name="contato" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloReserva.Reserva">
+    <Position X="8.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAAEAAAAAAAAAAEAEAAAAQAEAAAAAAEA=</HashCode>
+      <FileName>ModuloReserva\Reserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="contato" />
+      <Field Name="contato" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloCategoria.Categoria">
+    <Position X="1.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAEAgAEAAAA=</HashCode>
+      <FileName>ModuloCategoria\Categoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="contatos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Modulo
+		 
+.Contato">
+    <Position X="13.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BSAIAQAAgAwAIIAIAAAAAAAABgACEAABAAEQAAEEEAA=</HashCode>
+      <FileName>ModuloContato\Contato.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="historicoCompromissos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

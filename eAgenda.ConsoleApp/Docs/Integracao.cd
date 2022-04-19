@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloContato.TelaCadastroContato">
+    <Position X="6.75" Y="0.5" Width="2" />
+    <AssociationLine Name="telaCadastroTarefa" Type="ClubeLeitura.ConsoleApp.ModuloTarefa.TelaCadastroTarefa" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="2.438" />
+        <Point X="10.5" Y="2.438" />
+        <Point X="10.5" Y="3" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAAAAAQAAAAAAQAAACAAACAACAIABBABDAAA=</HashCode>
+      <FileName>ModuloContato\TelaCadastroContato.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="telaCadastroTarefa" />
+      <Field Name="notificador" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloContato.RepositorioContato">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuloContato\RepositorioContato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Compartilhado.Notificador">
+    <Position X="6.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compartilhado\Notificador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloTarefa.RepositorioTarefa">
+    <Position X="12" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuloTarefa\RepositorioTarefa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.ModuloTarefa.TelaCadastroTarefa">
+    <Position X="9.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAAQAAAAAAACAACAAAAAAAAAAABABCAAA=</HashCode>
+      <FileName>ModuloTarefa\TelaCadastroTarefa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
